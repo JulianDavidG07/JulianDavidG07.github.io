@@ -1,5 +1,5 @@
 import React, {Fragment} from "react";
-import { CardContent, Typography } from "@material-ui/core";
+import { CardContent, Typography, Box } from "@material-ui/core";
 
 
 export default ({ video }) => {
@@ -32,7 +32,12 @@ export default ({ video }) => {
       </div>
       <CardContent>
           <Typography variant="h3" color="textSecondary" component="p">
-          {video.snippet.title} - {video.snippet.title}
+          <Box fontWeight="fontWeightBold" m={1}>
+            {video.snippet.title} <br></br>
+            {video.snippet.channelTitle}
+          </Box>
+          
+
           </Typography>
         </CardContent>
     </Fragment>
