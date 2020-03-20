@@ -36,8 +36,6 @@ export default ({ video }) => {
             {video.snippet.title} <br></br>
             {video.snippet.channelTitle}
           </Box>
-          
-
           </Typography>
         </CardContent>
     </Fragment>
