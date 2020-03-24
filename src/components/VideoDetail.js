@@ -4,10 +4,13 @@ import { CardContent, Typography, Box } from "@material-ui/core";
 
 export default ({ video }) => {
   if (!video) return <div>...</div>;
+  /* Condition that states that if the searchbar is not used, print ... */
 
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
+  /* Concatenate the entered term to the API request URL */
 
   return (
+    /* Component return the results of the search in this case a video and its details */
     <Fragment>
       <div
       className="video"

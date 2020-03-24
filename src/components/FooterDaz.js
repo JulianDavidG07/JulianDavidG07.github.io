@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 import horse from './horse.png'
  
+/** Styles for a responsive footer */
 const styles = theme => ({
   root: {
     ...theme.mixins.gutters(),
@@ -22,6 +23,7 @@ function Footer(props) {
   const { classes } = props;
  
   return (
+    /**Component return information about developers*/
     <footer className={classes.footer}>
       <Paper className={classes.root} elevation={1}>
         <Typography variant="h5" component="h3">

@@ -1,5 +1,5 @@
 import axios from 'axios';
-
-export default axios.create({
-    baseURL: 'https://www.googleapis.com/youtube/v3/',
-});
+/* baseURL from which we will consume the Yotube API through axios*/
+export default axios.create(
+    {baseURL: 'https://www.googleapis.com/youtube/v3/'}
+    );
