@@ -1,4 +1,6 @@
-# How to run this application
+# Dazzler
+
+## How to run this application
 This application loads information using the [Youtube Data API v3](https://developers.google.com/youtube/v3/docs/).
 
 To use it, you need to set up a [Youtube Data v3 API key](https://productioncoder.com/build-youtube-in-react-part-19/) and run the project with `npm` or `yarn`.
@@ -54,5 +56,13 @@ This application includes the major features
 # Used technologies
 * [React / create-react-app](https://github.com/facebook/create-react-app)
 * [material UI](https://material-ui.com/)
+
+## Contribute
+
+Contributions are always welcome!
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 
