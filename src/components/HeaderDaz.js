@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import Avatar from '@material-ui/core/Avatar';
 import logo from './dazzler.png'
 
-/**Component return a Header con el logo de deezer */
+/* Component return a Header con el logo de deezer */
 const HeaderDaz = () => {
 
   return (
