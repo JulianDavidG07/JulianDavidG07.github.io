@@ -17,14 +17,14 @@ export default () => {
     <Fragment>
         <Grid style={{ justifyContent: "center" }}>
         <HeaderDaz /> {/* header of the page containing the logo */}
-        <SearchBar onSubmit={handleSubmit} /> {/*search bar expects content to be typed and user enter*/}
+        <SearchBar onSubmit={handleSubmit} /> {/* Search bar expects content to be typed and user enter */}
         <VideoDetail video={selectedVideo} /> {/* Bring information from the returned API video */}
         <FooterDaz /> {/* Footer of the page containg information about developers */}
         </Grid>
     </Fragment>
   );
 
-  /** Promise that you will use the search API element with the q parameter, using an API key*/
+  /* Promise that you will use the search API element with the q parameter, using an API key */
   async function handleSubmit(searchTerm) {
     const { data: { items: videos } } = await youtube.get("search", {
       params: {
