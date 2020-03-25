@@ -26,11 +26,12 @@ export default () => {
 
   /* Promise that you will use the search API element with the q parameter, using an API key */
   async function handleSubmit(searchTerm) {
+    const YOU = 'AIzaSyB8qQyqr1rmmjA-FScIrvjhM540LXAq5p0';
     const { data: { items: videos } } = await youtube.get("search", {
       params: {
         part: "snippet",
         maxResults: 5,
-        key: process.env.REACT_APP_API_KEY,
+        key: YOU,
         q: searchTerm,
       }
     });
