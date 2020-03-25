@@ -1,6 +1,16 @@
 # Dazzler
 Website: https://dazzlerapp.herokuapp.com/ 
 
+Dazzler is a site that focuses on quality YouTube content, for example if you type in the name of an artist
+dazzler will return the last video uploaded to YouTube by this artist.
+
+On the other hand, if you want, for example, the Spanish-English lyrics of a dazzler song, it will bring you a better score on YouTube using the following format: <Artist> <song name> "letra": Example: Ed sheeran perfect "letra"
+
+Here is a demonstration in case you are lost:
+
+[![Dazzler](http://img.youtube.com/vi/ngDT0xPFNgg/0.jpg)](http://www.youtube.com/watch?v=ngDT0xPFNgg "Dazzler")
+
+
 ## How to run this application
 This application loads information using the [Youtube Data API v3](https://developers.google.com/youtube/v3/docs/).
 
