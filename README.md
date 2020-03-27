@@ -37,7 +37,7 @@ To use it, you need to set up a [Youtube Data v3 API key](https://productioncode
 const API_KEY = 'AIzaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 ```
 ## Install the dependencies
-Install the dependencies by running...
+Install the dependencies by running..
 ```
 npm install
 ```
